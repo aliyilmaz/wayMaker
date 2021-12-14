@@ -2,14 +2,14 @@
 
 It is used to separate the layer and parameters.
 
-**Out-of-class use:**
-
 data:
 ```php
 $str = 'app/controller:insert@redirect';
 // $str = 'app/controller:insert';
 // $str = 'app/controller';
 ```
+
+**Out-of-class use:**
 
 code:
 ```php
