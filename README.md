@@ -1,4 +1,4 @@
-## What is is_json ?
+## What is layerMaker ?
 
 It is used to separate the layer and parameters.
 
