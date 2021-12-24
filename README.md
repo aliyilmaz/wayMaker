@@ -1,6 +1,6 @@
-## What is layerMaker ?
+## What is wayMaker ?
 
-It is used to separate the layer and parameters.
+It is used to separate the way and parameters.
 
 data:
 ```php
@@ -15,21 +15,21 @@ code:
 ```php
 require_once('Mind.php');
 $m = new Mind();
-print_r($m::aliyilmaz('layerMaker')->layerMaker($str));
+print_r($m::aliyilmaz('wayMaker')->wayMaker($str));
 ```
 
 **When using it in the class:**
 
 code:
 ```php
-print_r(self::aliyilmaz('layerMaker')->layerMaker($str));
+print_r(self::aliyilmaz('wayMaker')->wayMaker($str));
 ```
 
 output:
 ```php
 Array
 (
-    [layer] => app/controller
+    [way] => app/controller
     [params] => Array
         (
             [0] => insert
@@ -47,4 +47,4 @@ This package has no dependencies.
 ---
 
 ### License
-Instructions and files in this directory are shared under the [GPL3](https://github.com/aliyilmaz/layerMaker/blob/main/LICENSE) license.
+Instructions and files in this directory are shared under the [GPL3](https://github.com/aliyilmaz/wayMaker/blob/main/LICENSE) license.
